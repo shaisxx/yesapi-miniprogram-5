@@ -8692,8 +8692,8 @@ var util = __webpack_require__(/*! ./md5.js */ "C:\\Users\\pn62\\Desktop\\yesapi
 function enryptData(params) {
   var app = getApp();
 
-  var YESAPI_APP_KEY = "您的APP_KEY";
-  var YESAPI_APP_SECRECT = "您的APP_SECRECT"; // TODO：请勿对外暴露！！可在http://open.yesapi.cn/?r=App/Mine查看
+  var YESAPI_APP_KEY = "731B85BC7F350326BC27BA1652577EBD";
+  var YESAPI_APP_SECRECT = "RPXQzEactcwDgUe2D2L9keK30p6800LkkgptCFoROx1mw3UYBMAj2P5jbqMgVnhHxf"; // TODO：请勿对外暴露！！可在http://open.yesapi.cn/?r=App/Mine查看
 
   params['app_key'] = YESAPI_APP_KEY;
   params['sign'] = ''; // 屏蔽sign参数
@@ -8741,7 +8741,7 @@ _vue.default.prototype.$backgroundAudioData = {
   formatedPlayTime: '00:00:00'
 
     //挂载全局变量yesapiHost
-  }; _vue.default.prototype.yesapiHost = "您的小白专属域名";
+  }; _vue.default.prototype.yesapiHost = "http://hn216.api.yesapi.cn/";
 
 _vue.default.component('page-head', pageHead);
 _vue.default.component('page-foot', pageFoot);
